@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>n00b</title>
+    
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">n00b</a>
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!--            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Available docs<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li>Libraries:</li>
+                              <li><a href="docs/pexpect/html/index.html">pexpect 3.3</a></li>
+                              <li class="divider"></li>
+                              <li>Languagues:</li>
+                            </ul>
+                          </li>
+                        </ul>
+        </div><!-- /.navbar-collapse --> 
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+      <h1>Intro to programming using Python.</h1>
+      <p><b>Computers are really dumb. You know why? Because they need to be told <i>exactly</i> what to do in order for it to work.</b> Humans sometimes don't need to be told what to do. Do you have to think every time you blink your eyes? No, because our brains are really smart and it allows us to do certain things without us telling it what to do. We can just figure it out but with computers, if they are not told <i>exactly</i> what to do then they just sit there doing nothing. Programming is how you tell a computer what to do. ("Coding" is also another way to say programming.) Today, we are going to learn how to program. </p>
+
+      <h2>What is Python?</h2>
+      <p>Programming is how you tell a computer what to do. Programming is <b>typing commands into a file and telling your computer to run it.</b> The commands that you type are the commands of a programming language. <b>Python is a programming language that you use to tell a computer what to do.</b></p>
+      <p>Python is a very popular programming language. Pinterest, Instagram, Reddit, YouTube, Dropbox, Spotify are all written using Python.</p>
+
+      <h1>So lets program!...well, after you do this really quick.</h1>
+      <p>In order to program in Python, you need to do the following:</p>
+      <ul>
+        <li>Download and install Python 3.4.2 to your computer. Click below on the link for whatever computer you have.</li>
+        <ul>
+          <li><a href="https://www.python.org/ftp/python/3.4.2/python-3.4.2.amd64.msi">Windows 64 bit</a></li>
+          <li><a href="https://www.python.org/ftp/python/3.4.2/python-3.4.2.msi">Windows 32 bit</a></li>
+          <li><a href="https://www.python.org/ftp/python/3.4.2/python-3.4.2-macosx10.6.pkg">Mac OSX 10.6 and later</a></li>
+          <li><a href="https://www.python.org/ftp/python/3.4.2/python-3.4.2-macosx10.5.pkg">Mac OSX 10.5 and later</a></li>
+          <li>Linux (should already be installed on your distro)</li>
+        </ul>
+        <li>After you are done downloading and installing Python, open up the program called "IDLE" on your computer. After you open it, it should look something like the picture below:</li>
+      </ul>
+
+      <img alt="" src="img/idle.png"/>
+      <p>Do you see the '>>>' on the screen? Go ahead and start typing to the right of that. Go ahead and type the text below and then hit the enter key:<br/></p>
+<img alt="" src="img/hello_world.png"/>
+
+<p>Did you see what happened?! Wow! That was your first program! You are already programming!</p>
+
+      <h1>You are now ready to start programming.</h1>
+      <p>When you learn something new, like programming, it is always a good idea to have a goal in mind that you want to work towards. Maybe it is making an adventure game, or a website or an app. Today, our goal is to create a game. Do you know how to play rock paper scissors? If you do, great! If not, <a href="https://en.wikipedia.org/wiki/Rock-paper-scissors">Click here</a> and read about it quick. So to learn how to write Python today we are going to make a game of rock, paper, scissors.</p>
+
+<p>Go up to your menu in IDLE and click "File" and then click on "New file". You should see a new window pop up that is blank. This file is called the "text window" and as you can see, it does not have those '>>>' arrows in it.</p>
+
+<p>Now in your text window, go up to its menu and click "File" and then click "Save As" and then save the file on your computer with the name "rock-paper-scissors.py". We will be writing our Python code in this file and then executing it on our computer.</p>
+
+<h1>When writing a program, it is always a good idea to have a plan.</h1>
+<p>Before writing any code, we should go through all of the steps that we need to do in order to finish this program. Then after we think of all the steps, we can write all of the code in order to satisfy those steps.</p>
+
+<p>Our plan for this game is to:<br/>
+  1. Ask the user to make their move by typing in "rock", "paper", or "scissors" into the computer.<br/>
+  2. Then the computer player will make it's move by choosing either "rock", "paper", or "scissors".<br/>
+  3. Then we will compare the user's move and the computer's move to see who wins the game and display it to the user.<br/><br/>
+  And that is our plan defining step by step all of the tasks that we must complete in this program to complete our game. So now that we wrote out our plan, lets start thinking about the actual Python code needed to write this program.</p>
+
+<hr/>
+<h1>How to ask user for input.</h1>
+<h3>(using the "input" function)</h3>
+<p>When the game first starts, we want to ask the user to type in thier move by typing either "rock", "paper", or "scissors" into the computer. So how do you ask the user to type something in? Let me tell you. Go to your text window and type what is shown in the picture below.</p>
+<img alt="" src="img/input.png"/>
+<p>After you type what is shown above in your text window, go up to the menu and click "Run" and then click "Run module" (if you are asked to save, click yes.) When asked "What is your move?", go ahead and type in "rock", "paper", or "scissors".</p>
+
+<br/><br/>
+<p>You should see something like this below:</p>
+<img alt="" src="img/input_run.png"/>
+<p>The function "input()" that you typed in your text window is how you ask for input from a user in Python. <br/><br/>
+
+  The second line of code that we wrote is the "print()" function and that is used to print to the user the value of the variable that we saved their choice into. <br/><br/>
+
+  Great! Now we know how to save input from the user. On to the next step.</p>
+
+<hr/>
+<p>The next step is to have the computer pick its move of "rock", "paper", or "scissors". This next section below shows you how we will have the computer picks its move.</p>
+
+<h1>How the computer makes its move.</h1>
+<h3>(using a random number generator)</h3>
+<p>To make the computer player pick its move of rock, paper or scissors, we will use a random number generator. Lets check it out.</p>
+
+<p>Go back to your text window that we are writing our code into and lets add some more code to it. Look at the picture below and type the code your file is missing to make your code look exactly like the picture's code.</p>
+
+<img alt="" src="img/random.png"/>
+
+<p>Go ahead and again go to the menu and click "Run" and then click "Run module" (if you are asked to save, click yes.)</p>
+<br/><br/>
+<p>You should see something like below. </p>
+<img alt="" src="img/random_run.png"/>
+
+<p>Now go back to your text window and click the "Run" menu item and "Run module" again to run the code again. Did the computer's move print a different number then last time you ran it?
+  <br/><br/>
+  Run your code a few times. See that the number the computer's move prints is different sometimes? We are using a random number generator so it will print different numbers randomly!</p>
+
+<p>But wait. That makes no sense. Why is the computer's move a number?! The user's move is a word ("rock", "paper" or "scissors"). So how can we compare a word (also known as a "string" in programming) the user types in with a number that the computer entered? That is what we will be doing next!</p>
+
+<hr/>
+<h1>How to change the computer's number to a word.</h1>
+<h3>(using "if" statements.)</h3>
+<p>When you are hungry, what do you do? You eat food. If you are <i>not</i> hungry what do you do? You go play instead. This is the idea behind "if" statements. Check out this code below (just look at it. Don't type it into your text window):</p>
+<img alt="" src="img/hungry_if_statement.png"/>
+<p>This code is an if statement for the example I just gave above about being hungry or not. The variable "hungry" is stating that "true, I am hungry". So because the hungry variable is True which means that you are hungry, if I run this code, this is what happens:</p>
+<img alt="" src="img/hungry_if_statement_run.png"/>
+<br/><br/>
+<p>So we are going to use a "if" statement to change our computer's number move into either "rock", "paper", or "scissors".
+  <br/><br/>
+  Go to your text window and type in code from the code shown below to make sure your text window matches:</p>
+<img alt="" src="img/if_statement_decide_computer_move.png"/>
+<p>Go ahead and run this code now (you know how to do this now. Click "Run" and then "Run module" in the menu.). Run it a few times! You should see how the computer's move is now either "rock", "paper", or "scissors"!!
+
+  <br/><br/>
+  <b>We are almost there! We now need to just see who wins the game and we are done!</b></p>
+
+<hr/>
+<h1>Deciding who wins the game</h1>
+<h3>(using "if" statements some more.)</h3>
+<p>This is easy. To determine who wins, all we are going to do is compare the computer's move to the user's move and print who wins. Guess how we do this. Using "if" statements! </p>
+
+<ul>
+  <li>If the computer and the user choose the same move then the game is a tie.</li>
+  <li>If the computer chooses rock and the user chooses paper, then the user wins.</li>
+  <li>If the computer chooses rock and the user chooses scissors, then the computer wins.</li>
+  <li>If the computer chooses paper and the user chooses rock, then the computer wins.</li>
+  <li>If the computer chooses paper and the user chooses scissors, then the user wins.</li>
+  <li>If the computer chooses scissors and the user chooses rock, then the user wins.</li>
+  <li>If the computer chooses scissors and the user chooses paper, then the computer wins.</li>
+</ul>
+<p>So lets take this idea of comparing the user's move and the computer's move to see who wins and turn it into code.</p>
+
+<p>Go to your text window and type in code from the code shown below to make sure your text window matches:</p>
+<img alt="" src="img/if_statement_determine_winner.png"/>
+
+<br/><br/>
+<p>Lets run the finished game!! Go ahead and run it, enter "rock", "paper", or "scissors" and see if you win the game!</p>
+
+<img alt="" src="img/if_statement_determine_winner_run.png"/>
+
+<p>You just created your first game and learned some Python programming!</p>
+<br/><br/><br/>
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+    </div>
+
+    <!-- GitHub fork me ribbon -->
+    <a href="https://github.com/levibostian/n00b"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
